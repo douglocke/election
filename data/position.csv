@@ -1,0 +1,49 @@
+State,Abbr,yPosition,xPosition,Margin
+Alaska,AK,1,1,4.9
+Alabama,AL,7,7,2
+Arkansas,AR,6,5,4.1
+Arizona,AZ,6,2,4.9
+California,CA,5,1,4.9
+Colorado,CO,5,3,3.7
+Connecticut,CT,4,10,3
+Delaware,DE,5,10,4.1
+Florida,FL,8,9,3.3
+Georgia,GA,7,8,2.8
+Iowa,IA,4,5,3.5
+Idaho,ID,3,2,4
+Illinois,IL,3,6,4.3
+Indiana,IN,4,6,4
+Kansas,KS,6,4,5.5
+Kentucky,KY,5,6,4
+Louisiana,LA,7,5,4.4
+Massachusetts,MA,3,10,5
+Maryland,MD,5,9,4
+Maine,ME,1,11,3.5
+Michigan,MI,3,7,2.8
+Minnesota,MN,3,5,3.9
+Montana,MT,3,3,3.2
+Missouri,MO,5,5,3.5
+North Carolina,NC,6,7,3.5
+North Dakota,ND,3,4,4.9
+Nebraska,NE,5,4,3.6
+New Hampshire,NH,2,11,3.7
+New Jersey,NJ,4,9,3.8
+New Mexico,NM,6,3,1.8
+Nevada,NV,4,2,4.9
+New York,NY,3,9,4.5
+Ohio,OH,4,7,3.2
+Oklahoma,OK,7,4,4.3
+Oregon,OR,4,1,4.4
+Pennsylvania,PA,4,8,2.8
+Rhode Island,RI,4,11,3.4
+South Carolina,SC,6,8,4.4
+South Dakota,SD,4,4,4
+Tennessee,TN,6,6,4.4
+Texas,TX,8,4,3.6
+Utah,UT,5,2,2.7
+Virginia,VA,5,8,3.6
+Vermont,VT,2,10,3
+Washington,WA,3,1,4.9
+Wisconsin,WI,2,6,1.9
+West Virginia,WV,5,7,5
+Wyoming,WY,4,3,3.6

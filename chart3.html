@@ -1,0 +1,101 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Who will win the presidency?</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,600i,700,900&display=swap" rel="stylesheet">      
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style2.css" />
+    <!--<link rel="stylesheet" href="style.css" />-->
+
+
+    <script src="https://d3js.org/d3.v5.js"></script>
+
+    <!-- dependencies -->
+    <script src="./libraries/p5.min.js"></script>
+    <script src="./libraries/p5.svg.js"></script>
+    <script type='text/javascript' src='./libraries/p5.dom.min.js'></script>
+    <script language="javascript" type="text/javascript" src="sketch3.js"></script>
+
+
+
+</head>
+
+<body style="background-color:#FFFAF0;">
+  
+  
+  <div id="half">
+
+    <h2>Simulate the 2016 Election!</h2>
+    <!--<p><b>Get ready to simulate the 2016 presidential election!</b></p>-->
+    <!--<p>In the map at right, each state is represented by a spinning line. The faster each state spins, the more certain the polling data is prior to the election.   The color represents the candidate leading each state poll. Polling data isn’t perfect.  Examine the outcomes and look for areas where the polling data didn’t reflect election day results.</p>-->
+    <p>This map shows us what the chances of either Clinton or Trump had of winning for each state. Try to see if you can predict who will win according to the data. A candidate needs to win <b>270 or more votes</b> to win the presidential election. Each state gets a certain number of votes. When you simulate the election the number on each state is the number of votes that state has. These votes add up to determine which candidate wins.</p>
+    <p><b>Tip 1: Click on the 'Documentation' if you want to know more about how the election is simulated</b></p>
+    <p><b>Tip 2: Click on the 'Margin of Error' to see what the exact margin of error of each state's polling data</b></p>
+    <p><b>Tip 3: Pay attention to those states which still have the spinning bar!</b></p>
+
+    <div class="center">
+        <button id="myBtn">
+            <h4>Margin of Error</h4>
+        </button>
+        <button id="myBtn2">
+            <h4>Documentation</h4>
+        </button>
+    </div>
+
+    <div class="center">
+        <button class="button">
+            <a href="chart3.html"><h4>Simulate 10 Times</h4></a>
+        </button>
+        <button class="button">
+            <a href="chart.html"><h4>Clear</h4></a>
+        </button>
+    </div>
+    
+    <!--<div class="space"></div>-->
+    <div class="center">
+        <button class="newButton">
+            <a href="index.html"><h4>Homepage</h4></a>
+        </button>
+    </div>
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <!--<p>Original Margin of Errors (From Polling Data)</p>-->
+        <img id="image" style="width:480px;" src="./images/MOE.svg">
+      </div>
+      
+    </div>
+    
+    <div id="myModal2" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close2">&times;</span>
+        <!--<p>Original Margin of Errors (From Polling Data)</p>-->
+        <img id="image" style="width:480px;" src="./images/documentationPNG.png">
+      </div>
+      
+    </div>   
+    
+  </div>
+  
+  
+  
+          
+    <!-- p5 code -->
+    <!--<script language="javascript" type="text/javascript" src="sketch.js"></script>-->
+    <script language="javascript" type="text/javascript" src="sketch3.js"></script>
+    <script language="javascript" type="text/javascript" src="sketch2.js"></script>
+    <script language="javascript" type="text/javascript" src="./libraries/cash.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./libraries/moment.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./libraries/lodash.min.js"></script>
+
+  
+</body>
+</html>

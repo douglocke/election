@@ -1,0 +1,52 @@
+State,Abbr,yPosition,xPosition,Margin,Clinton,Trump,win
+Alaska,AK,1,1,4.9,47%,43%,1
+Alabama,AL,7,7,2,32%,48%,0
+Arkansas,AR,6,5,4.1,45%,47%,0
+Arizona,AZ,6,2,4.9,36%,59%,0
+California,CA,5,1,4.9,58%,35%,1
+Colorado,CO,5,3,3.7,48%,43%,1
+Connecticut,CT,4,10,3,50%,35%,1
+Delaware,DE,5,10,4.1,51%,30%,1
+District of Columbia,DC,6,9,4.9,91%,4%,1
+Florida,FL,8,9,3.3,46%,50%,0
+Georgia,GA,7,8,2.8,45%,52%,0
+Hawaii,HI,1,2,5.0,62%,30%,1
+Iowa,IA,4,5,3.5,29%,48%,0
+Idaho,ID,3,2,4,29%,48%,0
+Illinois,IL,3,6,4.3,53%,41%,1
+Indiana,IN,4,6,4,39%,46%,0
+Kansas,KS,6,4,5.5,34%,58%,0
+Kentucky,KY,5,6,4,37%,54%,0
+Louisiana,LA,7,5,4.4,35%,50%,0
+Maine,ME,1,11,3.5,46%,42%,1
+Maryland,MD,5,9,4,63%,27%,1
+Massachusetts,MA,3,10,5,46%,42%,1
+Michigan,MI,3,7,2.8,47%,49%,0
+Minnesota,MN,3,5,3.9,49%,39%,1
+Missouri,MO,7,6,3.5,41%,47%,0
+Mississippi,MS,5,5,2.9,39%,54%,0
+Montana,MT,3,3,3.2,36%,46%,0
+North Carolina,NC,6,7,3.5,44%,44%,0
+North Dakota,ND,3,4,4.9,32%,43%,0
+Nebraska,NE,5,4,3.6,29%,56%,0
+New Hampshire,NH,2,11,3.7,49%,38%,1
+New Jersey,NJ,4,9,3.8,51%,40%,1
+New Mexico,NM,6,3,1.8,46%,44%,1
+Nevada,NV,4,2,4.9,46%,46%,1
+New York,NY,3,9,4.5,51%,34%,1
+Ohio,OH,4,7,3.2,39%,46%,0
+Oklahoma,OK,7,4,4.3,30%,60%,0
+Oregon,OR,4,1,4.4,41%,34%,1
+Pennsylvania,PA,4,8,2.8,46%,40%,1
+Rhode Island,RI,4,11,3.4,52%,32%,1
+South Carolina,SC,6,8,4.4,36%,47%,0
+South Dakota,SD,4,4,4,35%,49%,0
+Tennessee,TN,6,6,4.4,34%,44%,0
+Texas,TX,8,4,3.6,35%,49%,0
+Utah,UT,5,2,2.7,30%,40%,0
+Virginia,VA,5,8,3.6,48%,42%,1
+Vermont,VT,2,10,3,52%,26%,1
+Washington,WA,3,1,4.9,55%,39%,1
+Wisconsin,WI,2,6,1.9,49%,41%,1
+West Virginia,WV,5,7,5,28%,60%,0
+Wyoming,WY,4,3,3.6,20%,58%,0

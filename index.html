@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    
+      <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Simulate the 2016 Election</title>
+        <link rel="stylesheet" href="https://use.typekit.net/rpv1vve.css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,600i,700,900&display=swap" rel="stylesheet">      
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!--p5 & d3 dependency-->
+        <!--<script src="./libraries/p5.min.js"></script>-->
+        <!--<script src="./libraries/p5.svg.js"></script>-->
+        <!--<script type='text/javascript' src='libraries/p5.dom.min.js'></script>-->
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/lib/p5.js"></script>-->
+
+        <script src="https://d3js.org/d3.v5.js"></script>
+
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="scrolly.css" />
+        
+      </head>
+
+
+      <body style="background-color:#FFFAF0;">
+        <main>
+          
+        <!--1 Homepage -->
+          <!--1.1 Homepage_Introduction-->
+          <section id="intro">
+            <h1 class="intro__hed"><b>Simulate the 2016 Election!</b></h1>
+            <h3> by Douglas Locke, Sara Obaid Ul Islam, & Xingwei Huang</h3>
+            <!--<p class="intro__dek">This project aims to show the margin of error in aggregated polling data, and proposing a potential solution to represent how this ‘uncertainty’ may affect election outcome. Audiences will also examine the role of ‘uncertainty’ has played in the relationship between polling data and actual election outcome.</p>-->
+            <p class="intro__dek">This is a chance for you to play with actual election data from 2016 election and discover how it was misinterpreted and misreported. The result of the 2016 election was shocking for pundits, journalists and generally people who were keeping up the news, polls and data. </p>
+            <br>
+            <p class="intro__dek">This project invites you to take a look at the facts i.e. the pre-election polling data again and determine whether it was the data or how we interpreted it that lead to the shock and confusion about the results. This is a unique opportunity to engage with the data, the uncertainty surrounding it and simulating an actual election based on that data.</p>
+        
+            <br/>
+          </section>
+          
+ 
+           <section id="intro">
+            <h2> <b2>Margin </b2><b3>of Error</b3><b> & Uncertainty in Data</b></h2>
+            <p class="intro__dek">In our visualization we represent the uncertainty (margin of error) in our data through spinning bars.   The higher the margin of error, the less confident one can be that the poll will reflect the true voting results.   In our demonstration, lower margin of error will slow down the spinning speed because of higher uncertainty.</p>
+            <br>
+            <p class="intro__dek"><b>Smaller MOE ---> Higher Certainty ---> Faster Speed ---> More Prominence</b></p>
+          </section>  
+          
+          
+          <section id="intro2">
+              <img id="image" src="./images/legend.svg" class="centerimg">    
+          </section>
+
+          
+          <!--1.2 Scroller Animation-->
+          <!--<div class="scroll-downs">-->
+          <!--  <div class="mousey">-->
+          <!--      <div class="scroller"></div>-->
+          <!--  </div>-->
+          <!--</div>-->
+ 
+          
+          <!--1.2 Enter Button-->
+          <div class="center">
+            <button class="button">
+              <a href="chart.html"><h4>Explore</h4></a>
+            </button>
+          </div>
+          
+          
+
+
+    
+ 
+
+
+
+
+
+          
+        </main>
+    
+        <!-- References Links -->
+        <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+        <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+        <script src="./data/stateCodes.js"></script>
+        <script src='https://d3js.org/d3.v5.min.js'></script>
+      </body>
+  
+  
+  
+</html>
